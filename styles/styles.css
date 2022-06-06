@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap'); /* this is known as import rule*/
+h1 {
+    color:blue; text-align:center 
+}
+#name{
+    color:bisque  /* this is id selector */
+}
+.heading{
+    color: white;
+    float: left;
+
+}
+.name{      
+    color:navy  /* this is class selector this is used in big projects and class selector can be applied to various tags like paragraph tag also*/
+}   
+.b1{
+    float: left;
+
+} 
+
+/* @font-face {
+    font-family: "Roboto Slab";                      this method is known as @rule 
+    src: url("font/RobotoSlab-VariableFont_wght.ttf");
+} */
+
+
+.box{
+    font-family: "Roboto Slab","times new roman",sans-serif; /* if two font given compiler takes first one , and if the font has spacce it should be enclosed between space*/
+    font-size: 34px;   /*absolute size keywords means -- xx-small , x-small,small,medium,large,x-large,xx-large*/
+    font-weight: bold;
+    color: darkgreen;
+    background-color: aquamarine;
+    border-width: 3px;
+    border-style: solid;
+    border-color: darkgreen;
+    padding: 20px;
+    margin:auto;
+    margin-top: 100px;
+    width:500px;
+    text-align: center;
+}          
+ul{
+    list-style-type: circle;
+    /* list-style-type: url(""); */
+}         
+ol{
+    list-style-position: inside;
+    list-style-type: lower-greek;
+}

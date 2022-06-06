@@ -1,0 +1,48 @@
+*{
+    font-family: sans-serif;
+}
+.heading{
+    font-family: sans-serif;
+    padding: 1px;
+    margin:1px;
+    color: crimson;
+}
+.subheading{
+    padding: 1px;
+    margin:1px;
+
+    color: aqua;
+}
+.about{
+    padding-top: 2px;
+    margin-top: 2px;
+    width: 50%;
+    float: left;
+}
+.skills{
+    width: 30%;
+    float:left;
+    border-left: 1px solid black;
+    padding-left: 5px;
+}
+.place{
+    padding: 1px;
+    margin:1px;
+
+    color: magenta;
+}
+.content-heading{
+    color: brown;
+    margin: 2px;
+    padding: 2px;
+    clear: both;
+}
+.list{
+    font-weight: bold;         
+}
+.image{
+    float: left;
+    padding: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}

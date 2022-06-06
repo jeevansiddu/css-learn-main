@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Signup - Strat Hawk</title>
+        <link rel="stylesheet" href="styles/styles.css"> 
+    </head>
+    <body>
+        <div class="b1">
+            <h1 class="heading">Strat Hawk</h1>
+            <a class="b" href="index.html">Home</a> 
+            <a class="b" href="bookings.html">My Bookings</a> 
+            <a class="b" href="destinations.html">Destinations</a> 
+            <a class="b" href="login.html">Login</a> 
+            <a class="b" href="signup.html">Signup</a>
+        </div>
+        <div class="y">
+            <div class="y1">signup</div>
+            <div class="y2">Title</div>
+            <div class="y3">
+                <input type="radio" name="title" value="mister" id="mister" required>MR.
+               
+                <input type="radio" name="title" value="missus" id="missus">Mrs.
+          
+            </div>
+            <div class="y4">
+                <div class="y5">
+                    <label class="g2">First name</label>
+                    <input type="text" class="g3">
+
+                </div>
+                <div class="y6">
+                    <label class="g2">last name</label>
+                    <input type="text" class="g3">
+
+                </div>
+                <div class="y7">
+                    <label class="g2">email name</label>
+                    <input type="text" class="g3">
+
+                </div>
+                <div class="y8">
+                    <label class="g2">mno</label>
+                    <input type="text" class="g3">
+
+                </div>
+                <div class="y9">
+                    <label class="g2">password</label>
+                    <input type="text" class="g3">
+
+                </div>
+                <div class="y10">
+                    <label class="g2">confirm Password</label>
+                    <input type="text" class="g3">
+
+                </div>
+                <div class="y11">
+                    <label class="g2">Preferred language</label>
+                    <select name="lang" class="y13">
+                        <option>chin</option>
+                        <option>eng</option>
+                        <option>tamil</option>
+                    </select>
+
+                </div>
+                <div class="y12">
+                    <input type="checkbox">Receive newsletter
+                </div>
+                
+
+            </div>
+            <input type="submit" value="register" class="g4">
+
+        </div>
+
+        <h2>Signup</h2>
+        <form action="login.html">
+            <table cellpadding="10">
+                <tr>
+                    <td>
+                        Title<br>
+                        <input type="radio" name="title" value="mister" id="mister" required>
+                        <label for="mister">Mr.</label>
+                        <input type="radio" name="title" value="missus" id="missus">
+                        <label for="missus">Mrs.</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="firstName">First Name</label><br>
+                        <input type="text" name="firstName" id="firstName" required>
+                    </td>
+                    <td>
+                        <label for="lastName">Last Name</label><br>
+                        <input type="text" name="lastName" id="lastName" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email</label><br>
+                        <input type="text" name="email" id="email" required 
+                               pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
+                               title="xxxx@yyyy.zzz format">
+                    </td>
+                    <td>
+                        <label for="mobileNumber">Mobile Number</label><br>
+                        <input type="text" name="mobileNumber" id="mobileNumber" pattern="[0-9]{10}">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">Password</label><br>
+                        <input type="password" name="password" id="password" 
+                               pattern="    (?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                               title="A number, 1 upper case, 1 lower case with 8 or more characters" required>
+                    </td>
+                    <td>
+                        <label for="confirmPassword">Confirm Password</label><br>
+                        <input type="password" name="confirmPassword" id="confirmPassword" required
+                               pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                               title="Password must contain 1 number, 1 upper case, 1 lower case and at least 8 or more characters">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="language">Preferred Language</label><br>
+                        <select name="language" id="language">
+                            <option>Chinese</option>
+                            <option>Spanish</option>
+                            <option>English</option>
+                            <option>Hindi</option>
+                            <option>Portuguese</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="newsletter" id="newsletter">
+                        <label for="newsletter">Receive newsletters</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Register"></td>
+                    <td></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

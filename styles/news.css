@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap'); /* this is known as import rule*/
+
+h1{
+    color: cyan;
+
+}
+h3{
+    color:gray;
+
+}
+p{
+    text-align: justify;
+
+}
+
+.article{
+    width: 50%;
+    border:5px solid gray;
+    border-radius: 5px;
+    /* margin:auto; */
+    padding: 10px;
+    /* margin-right: 50%; */
+}
+@media screen and (max-width: 414px) {
+    .article{
+        width: 100%;
+
+    }
+    .para{
+        width: 100%;
+        float: right;
+    }
+}
+body{
+    font-family: "Roboto Slab";
+}
+.para{
+    padding-left: 15px;
+    width: 30%;
+    float: right;
+}
